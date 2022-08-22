@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i;
+	printf("Enter the even numbers 1 to 100");
+	for(i=1;i<=100;i++)
+	{
+		if(i%2==0)
+		{
+			printf("%d\t",i);
+		}
+	}
+	return 0;
+}
